@@ -17900,6 +17900,18 @@ video {
   background-color: rgba(43, 108, 176, var(--bg-opacity))
 }
 
+.card{
+  --bg-opacity: 1;
+  background-color: #ebf8ff;
+  background-color: rgba(235, 248, 255, var(--bg-opacity));
+  border-radius: 0.25rem;
+  padding: 1rem;
+  border-width: 2px;
+  --border-opacity: 1;
+  border-color: #2c5282;
+  border-color: rgba(44, 82, 130, var(--border-opacity))
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
