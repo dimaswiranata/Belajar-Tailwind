@@ -7,81 +7,48 @@
   <title>Belajar Tailwind</title>
 </head>
 <body>
-
   <div class="container mx-auto mt-12">
-    <h1 class="text-2xl text-blue-700 font-bold mb-3">Awesome Button</h1>
-    <button class="btn-info">
-      Some Cool Button
-    </button>
-
-    <button 
-      class="bg-teal-500 hover:bg-teal-700 text-white transition duration-150 py-2 px-8 rounded"
-    >
-      Another Cool Button
-    </button>
-  </div>
-
-  <div class="container mx-auto mt-12">
-    <h1 class="text-2xl text-blue-700 font-bold mb-3">Mysterious Cards</h1>
-    <div class="grid grid-cols-4 grid-rows-2 gap-4">
-      <!-- <div class="col-span-2 row-span-2"> -->
-      <!-- responsive md(medium) & sm(small) -->
-      <div class="sm:col-span-4 md:col-span-2">
-        <div class="card">
-          Some mysterious Cards
-
-          <img src="https://picsum.photos/300/200" class="w-full" alt="random">
-
-          <button class="btn-info mt-4">
-            Some Cool Button
-          </button>
-        </div>
+    <!-- Header -->
+    <header class="flex justify-between items-center">
+      <div style="height: 45px">
+        <img src="dummy-logo.png" class="h-full"/>
       </div>
-      <div class="sm:col-span-4 md:col-span-2">
-        <div class="card">
-          Some mysterious Cards
+      <ul class="flex">
+        <li>
+          <a href="#" class="px-4 py-2">Home</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-2">About</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-2">Service</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-2">Portfolio</a>
+        </li>
+        <li>
+          <a href="#" class="px-4 py-2">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <!-- Header End -->
 
-          <img src="https://picsum.photos/300/200" class="w-full" alt="random">
-
-          <button class="btn-info mt-4">
-            Some Cool Button
-          </button>
-        </div>
+    <!-- Containers -->
+    <div class="flex items-center py-28">
+      <div class="w-1/2 p-22">
+        <h1 class="text-6xl font-bold leading-none">
+          Customer Online Rating
+        </h1>
+        <p class="leading-relaxed mt-4 text-gray-600">
+          Lorem ipsum dolor sit amet, consectetur <strong>adipiscing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p>
+        <a href="#" class="border-2 border-pink-300 text-gray-700 rounded-full py-1 px-8 inline-block mt-8">Learn More</a>
       </div>
-      <div class="sm:col-span-4 md:col-span-2">
-        <div class="card">
-          Some mysterious Cards
-
-          <img src="https://picsum.photos/300/200" class="w-full" alt="random">
-
-          <button class="btn-info mt-4">
-            Some Cool Button
-          </button>
-        </div>
-      </div>
-      <div class="sm:col-span-4 md:col-span-2">
-        <div class="card">
-          Some mysterious Cards
-
-          <img src="https://picsum.photos/300/200" class="w-full" alt="random">
-
-          <button class="btn-info mt-4">
-            Some Cool Button
-          </button>
-        </div>
-      </div>
-      <div class="sm:col-span-4 md:col-span-2">
-        <div class="card">
-          Some mysterious Cards
-
-          <img src="https://picsum.photos/300/200" class="w-full" alt="random">
-
-          <button class="btn-info mt-4">
-            Some Cool Button
-          </button>
-        </div>
+      <div class="w-1/2">
+        <img src="undraw_pic.png" alt="world_is_mine"/>
       </div>
     </div>
+    <!-- Containers End -->
   </div>
 </body>
 </html>
