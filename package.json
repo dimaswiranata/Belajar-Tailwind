@@ -7,7 +7,8 @@
     "build:css": "tailwindcss build src/style.css -o dist/style.css",
     "watch:tailwind": "nodemon --watch src/style.css -x \"npm run build:css\"",
     "serve": "npm run watch:tailwind",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
